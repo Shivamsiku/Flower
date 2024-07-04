@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #ffff;
+}
+.container {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #0067bb;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0px 0px 50px 3px #000;
+}
+span {
+  left: 10%;
+  top: 10%;
+  box-shadow: 0px 0px 25px #000;
+}
+span:nth-child(1) {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  background-color: #90caf9;
+  left: 6%;
+  top: 6%;
+  animation: ani 3s infinite;
+  animation-duration: 2s;
+}
+span:nth-child(2) {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  top: 10%;
+  left: 10%;
+  animation: ani 3s infinite;
+  animation-duration: 2.1s;
+}
+span:nth-child(3) {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  background-color: #0067bb;
+  left: 14%;
+  top: 14%;
+  animation: ani 3s infinite;
+  animation-duration: 2.2s;
+}
+span:nth-child(4) {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  background-color: #90caf9;
+  left: 18%;
+  top: 18%;
+  animation: ani 3s infinite;
+  animation-duration: 2.3s;
+}
+span:nth-child(5) {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background-color: #ffffff;
+  left: 22%;
+  top: 22%;
+  animation: ani 3s infinite;
+  animation-duration: 2.4s;
+}
+span:nth-child(6) {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: #90caf9;
+  left: 26%;
+  top: 26%;
+  animation: ani 3s infinite;
+  animation-duration: 2.5s;
+}
+span:nth-child(7) {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #0067bb;
+  left: 30%;
+  top: 30%;
+  animation: ani 3s infinite;
+  animation-duration: 2.6s;
+}
+span:nth-child(8) {
+  background-image: url(./image.png);
+
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #008cff;
+  left: 34%;
+  top: 34%;
+  animation: ani 3s infinite;
+  animation-duration: 2.7s;
+}
+@keyframes ani {
+  0% {
+    transition: 0.7s;
+    transform: rotate(0deg);
+  }
+  20% {
+    transition: 0.7s;
+    transform: rotate(95deg);
+  }
+  50% {
+    transition: 0.7s;
+    transform: rotate(360deg);
+  }
+  100% {
+    transition: 0.7s;
+    transform: rotate(0deg);
+  }
+}
